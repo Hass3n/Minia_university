@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hassan.surveyminia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/uv"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/uv"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splach">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".web" />
+        <activity android:name=".student_su" />
+        <activity android:name=".High_stu" />
+        <activity android:name=".Tec_su" />
+        <activity android:name=".surveyrecycle" />
+        <activity android:name=".en_act"></activity>
+    </application>
+
+</manifest>
