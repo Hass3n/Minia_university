@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Universty">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/imgg"
+        android:layout_margin="20dp"
+        android:src="@drawable/uv"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgg"
+        android:text=" جامعة المنيا"
+        android:textSize="25sp"
+        android:id="@+id/textt"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+
+
+        />
+
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgg"
+        android:layout_marginTop="45dp"
+        android:text="نبذة تاريخية"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/un_se1"
+        android:layout_marginStart="15dp"
+
+
+
+
+        />
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        app:layout_constraintStart_toEndOf="@id/un_se1"
+        app:layout_constraintTop_toBottomOf="@id/imgg"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="15dp"
+        android:text="قيم جامعية"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/un_se2"
+        android:layout_marginEnd="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/un_se3"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/un_se1"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_bg"
+        android:text="الرؤيا والرسالة"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginStart="15dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/un_se4"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/un_se1"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@id/un_se3"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/button_bg"
+        android:text="مبانى ومنشأت"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+        android:layout_marginEnd="15dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/un_se5"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/un_se3"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/button_bg"
+        android:text="قيادات جامعية"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/un_se6"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/un_se5"
+        app:layout_constraintTop_toBottomOf="@id/un_se4"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_bg"
+        android:text="رؤساء سابقون"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginEnd="15dp"
+
+
+
+        />
+    <Button
+        android:id="@+id/un_se7"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/un_se5"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_bg"
+        android:text="مدونة السلوك الوظيفى"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

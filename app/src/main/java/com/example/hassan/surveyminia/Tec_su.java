@@ -8,7 +8,7 @@ import android.widget.Button;
 
    public class Tec_su extends AppCompatActivity {
 
-     Button bt1,bt2,bt3,bt4,bt5,bt6,bt7,bt8;
+     Button bt1,bt2,bt3,bt4,bt5,bt6,bt7,bt8,bt9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,8 @@ import android.widget.Button;
         bt6=findViewById(R.id.tec_se6);
         bt7=findViewById(R.id.tec_se7);
         bt8=findViewById(R.id.tec_se8);
+        bt9=findViewById(R.id.tec_se9);
+
 
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +83,13 @@ import android.widget.Button;
             @Override
             public void onClick(View v) {
                 web.ul_name="http://mc.minia.edu.eg/fldc/";
+                startActivity(new Intent(Tec_su.this,web.class));
+            }
+        });
+        bt9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                web.ul_name="https://www.minia.edu.eg/Minia/staffemail2.aspx";
                 startActivity(new Intent(Tec_su.this,web.class));
             }
         });

@@ -37,8 +37,9 @@ public class surveyrecycle extends AppCompatActivity {
                 else if(item.getId()==1)
                 {
 
-                    startActivity(new Intent(surveyrecycle.this,student_su.class));
+                    startActivity(new Intent(surveyrecycle.this,Universty.class));
                 }
+
 
                 else if(item.getId()==2)
                 {
@@ -69,19 +70,33 @@ public class surveyrecycle extends AppCompatActivity {
                     startActivity(new Intent(surveyrecycle.this,web.class));
                 }
 
+                else if(item.getId()==7)
+                {
 
+                    startActivity(new Intent(surveyrecycle.this,UnitandCenter.class));
+                }
+                else if(item.getId()==8)
+                {
+
+                    startActivity(new Intent(surveyrecycle.this,student_su.class));
+                }
             }
         });
     }
     private void getItem() {
         items = new ArrayList<>();
         items.add(new Item("التحصيل الالكتروني", R.drawable.o,0));
-        items.add(new Item("خدمات طلابية",  R.drawable.w,1));
+
+        items.add(new Item("  جامعة المنيا   ", R.drawable.uv,1));
+
         items.add(new Item("الدراسات العليا", R.drawable.z,2));
-        items.add(new Item("اخبار الجامعة",  R.drawable.uv,3));//news
+        items.add(new Item("اخبار الجامعة",  R.drawable.news,3));
         items.add(new Item(" هيئة التدريس", R.drawable.a,4));
         items.add(new Item("قطاع شئون البيئة    ", R.drawable.uv,5));
         items.add(new Item("  شكاوى ومقترحات   ", R.drawable.t,6));
+        items.add(new Item("  مراكز ووحدات   ", R.drawable.center,7));
+        items.add(new Item("خدمات طلابية",  R.drawable.w,8));
+
 
     }
 

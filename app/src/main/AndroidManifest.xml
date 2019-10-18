@@ -3,6 +3,8 @@
     package="com.example.hassan.surveyminia">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +13,8 @@
         android:roundIcon="@drawable/uv"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Universty"></activity>
+        <activity android:name=".UnitandCenter" />
         <activity android:name=".splach">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +27,7 @@
         <activity android:name=".High_stu" />
         <activity android:name=".Tec_su" />
         <activity android:name=".surveyrecycle" />
-        <activity android:name=".en_act"></activity>
+        <activity android:name=".en_act" />
     </application>
 
 </manifest>

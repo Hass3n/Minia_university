@@ -28,7 +28,7 @@
         android:background="@color/colorAccent"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        android:paddingEnd="110dp"
+        android:gravity="center"
 
         />
 
